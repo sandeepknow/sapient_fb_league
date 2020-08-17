@@ -18,7 +18,7 @@ import com.football.model.LeagueStandingResponseModel;
 import com.football.service.LeagueStandingService;
 
 //@RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class FbLeagueServiceApplicationTests {
 
 	@MockBean
